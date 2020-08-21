@@ -1,0 +1,154 @@
+.heading {
+    border-right-style: ridge;
+    border-bottom-style: ridge;
+    background-color: cadetblue;
+    color: azure;
+    text-transform: uppercase;
+    padding: 1%;
+    margin: 1%;
+}
+.box {
+    border-left-style: ridge;
+    border-bottom-style: ridge;
+    background-color: ghostwhite;
+    margin: 1%;
+    padding-left: 1%;
+}
+
+/*Navbar*/
+#nav {
+    margin-top: -1%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: cadetblue;
+}
+#nav a{
+    padding: 2%;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#nav a:hover{
+    background-color: whitesmoke;
+    color: cadetblue;
+    border-bottom-style: groove;
+    border-bottom-color: ghostwhite;
+}
+
+/*About section*/
+#intro {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 6fr;
+    
+    padding-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+    border-bottom-style: groove;
+    border-bottom-color: ghostwhite;
+}
+.desc {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+#photo {
+    width: 100%;
+    padding-bottom: 5%;
+}
+.desc p:first-child {
+    font-size: 130%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.desc p:nth-of-type(2){
+    margin-top: 0%;
+    border-bottom-style: solid;
+    border-bottom-color: cadetblue;
+}
+
+
+/*Skills section*/
+#skill-set {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#skill-set .heading {
+    grid-column: 1/4;
+}
+
+.skills p {
+    display: inline-block;
+    
+    padding: 1%;
+    margin: 1%;
+    
+    border-left-style: groove;
+    background-color: ghostwhite;
+}
+.skill-category {
+    margin: 3%;
+    padding: 2%;
+    
+    border-left-style: ridge;
+    border-bottom-style: ridge;
+}
+.skill-category > p {
+    padding: 1%;
+    margin: 1%;
+}
+
+
+/*Projects section*/
+.project {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.project a {
+    padding: 1%;
+    color: darkslategrey;
+}
+.project a:hover {
+    color: cadetblue;
+}
+.overview {
+    padding: 1%;
+}
+.title {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+/*Education section*/
+.college p:first-child {
+    font-size: 150%;
+    color: darkcyan;
+}
+.college p:nth-of-type(2) {
+    color: black;
+    opacity: 0.7;
+    font-weight: 500;
+}
+.college p:nth-of-type(3) {
+    color: black;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+/*Contact section*/
+#contact a{
+    padding-bottom: 1%;
+    display: block;
+    width: 20%;
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+#contact a:hover {
+    color: cadetblue;
+    text-decoration: underline;
+}
